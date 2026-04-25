@@ -15,10 +15,15 @@ class SlotRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SlotRow(
-      slot1: slot1,
-      slot2: slot2,
-      slot3: slot3,
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Image.asset(slot1, width: 100, height: 100),
+        SizedBox(width: 16),
+        Image.asset(slot2, width: 100, height: 100),
+        SizedBox(width: 16),
+        Image.asset(slot3, width: 100, height: 100),
+      ],
     );
   }
 }
