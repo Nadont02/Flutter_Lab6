@@ -1,17 +1,26 @@
-# slot_machine
+# Лабораторная работа №6. Flutter: StatefulWidget и управление состоянием
 
-A new Flutter project.
+**Выполнил:** Дунюшкин Н.С | Салалыкина О.М
 
-## Getting Started
+**Группа:** ИСП-233
 
-This project is a starting point for a Flutter application.
+**Дата:** 28.04.2026  
 
-A few resources to get you started if this is your first Flutter project:
+### Что я изучил в этой работе:
+* Понял, чем отличаются Stateless и Stateful виджеты.
+* Научился обновлять экран приложения с помощью функции setState.
+* Узнал, как разбивать код на несколько файлов и соединять их через import.
+* Потренировался делать красивые градиентные фоны и стилизовать текст.
+* Разобрался, как работать с Git и делать коммиты по ходу разработки.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Скриншот приложения
+![Финальный результат](img/step4_Dun_Sal.png) 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+### Как запустить проект
+1. Установите Flutter на компьютер.
+2. Склонируйте репозиторий или скачайте архив с кодом.
+3. Откройте папку проекта в терминале.
+4. Введите команду для запуска в браузере:
+   ```bash
+   flutter run -d chrome
